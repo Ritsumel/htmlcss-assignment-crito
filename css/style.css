@@ -255,6 +255,27 @@ header .container .menu .btn-login i {
   }
 }
 
+.sponsors {
+  background-color: #FFFFFF;
+}
+.sponsors .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (min-width: 1200px) {
+  .sponsors .container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .sponsors .container img {
+    flex-wrap: nowrap;
+  }
+}
+
 .project-and-case .container {
   text-align: center;
 }
