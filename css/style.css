@@ -276,6 +276,106 @@ header .container .menu .btn-login i {
   }
 }
 
+.features {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 2px solid #DAD9D3;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: 550px auto;
+  grid-template-areas: "box1 box2";
+}
+.features .container .box1 {
+  margin-right: 90px;
+  /* border: 1px solid black; */
+}
+.features .container .box1 p {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.features .container .box1 h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.features .container .box1 .btn-yellow {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.features .container .box1 .btn-yellow i {
+  margin-top: 5px;
+}
+.features .container .box2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "ba sb" "fa rm";
+  /* border: 1px solid black; */
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-right: 130px;
+}
+.features .container .box2 .business-advice {
+  grid-area: ba;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+.features .container .box2 .business-advice h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.features .container .box2 .business-advice i {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.features .container .box2 .startup-business {
+  grid-area: sb;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+.features .container .box2 .startup-business h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.features .container .box2 .startup-business i {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.features .container .box2 .financial-advice {
+  grid-area: fa;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+.features .container .box2 .financial-advice h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.features .container .box2 .financial-advice i {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.features .container .box2 .risk-management {
+  grid-area: rm;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+.features .container .box2 .risk-management h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.features .container .box2 .risk-management i {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
 .project-and-case .container {
   text-align: center;
 }
