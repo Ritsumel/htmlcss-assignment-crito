@@ -176,6 +176,13 @@ header .container .menu .btn-login i {
 
 .showcase {
   background-color: #F0EFE9;
+  position: relative;
+  z-index: 0;
+}
+.showcase .background-lines {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
 }
 .showcase .container {
   display: flex;
@@ -276,20 +283,15 @@ header .container .menu .btn-login i {
   }
 }
 
-.features {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin-left: 100px;
-  margin-right: 100px;
-  border: 2px solid #DAD9D3;
-}
 .features .container {
   display: grid;
   grid-template-columns: 550px auto;
   grid-template-areas: "box1 box2";
+  padding: 80px;
+  border: 2px solid #DAD9D3;
 }
 .features .container .box1 {
-  margin-right: 90px;
+  margin-right: 160px;
   /* border: 1px solid black; */
 }
 .features .container .box1 p {
@@ -299,7 +301,7 @@ header .container .menu .btn-login i {
 .features .container .box1 h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 40px;
   margin-bottom: 40px;
 }
 .features .container .box1 .btn-yellow {
@@ -315,9 +317,7 @@ header .container .menu .btn-login i {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "ba sb" "fa rm";
   /* border: 1px solid black; */
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-  margin-right: 130px;
+  margin-left: -60px;
 }
 .features .container .box2 .business-advice {
   grid-area: ba;
@@ -430,6 +430,7 @@ header .container .menu .btn-login i {
 .project-and-case .container .btn-black {
   display: block;
   margin-top: 40px;
+  padding-top: 20px;
   background-color: #191919;
   border: 1px solid #191919;
   color: #FFFFFF;
@@ -453,4 +454,39 @@ header .container .menu .btn-login i {
   font-weight: 600;
   margin-left: 8px;
   font-size: 0.9em;
+}
+
+.newsletter {
+  background-color: #F0EFE9;
+  position: relative;
+  padding: 100px;
+}
+.newsletter .background-wavy-lines {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+.newsletter .container form input {
+  color: #191919;
+  text-decoration: none;
+  padding: 13px 35px;
+  padding-top: 20px;
+  font-size: 16px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid rgba(25, 25, 25, 0.1);
+  margin-right: 10px;
+}
+.newsletter .btn-yellow {
+  padding-top: 20px;
 }
