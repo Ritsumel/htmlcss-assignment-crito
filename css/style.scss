@@ -422,6 +422,137 @@ header {
     }
 }
 
+.about-company {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "box1 box2";
+        padding-top: 120px;
+        padding-bottom: 120px;
+        /* border: 1px solid #191919; */
+        position: relative;
+
+        .box1 {
+            /* border: 1px solid black; */
+
+            .girl-walking {
+                margin-left: 45px;
+            }
+            
+            .background-lines-white-left {
+                position: absolute;
+                left: 25px;
+                top: 155px;
+            }
+
+            .blue-box {
+                position: absolute;
+                background-color: #BEEBFF;
+                width: 369px;
+                height: 180px;
+                top: 515px;
+                left: 0px;
+                box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.10);
+
+                .SB-founder {
+                    margin-top: 30px;
+                    margin-left: 25px;
+
+                    .name {
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 20px;
+                        font-weight: 800;
+                    }
+    
+                    .position {
+                        font-family: 'DM Sans', sans-serif;
+                        font-weight: 800;
+                        color: #F94D1C;
+                    }
+                }
+
+                p {
+                    margin-left: 25px;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        .box2 {
+            /* border: 1px solid black; */
+            margin-left: 120px;
+            margin-right: -10px;
+
+            #p1 {
+                font-family: 18px;
+                color: #F94D1C;
+            }
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 45px;
+                font-weight: 800;
+            }
+
+            #p2 {
+                margin-top: 20px;
+                line-height: 2;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: start;
+                padding-top: 110px;
+                position: relative;
+
+                .btn-black {
+                    padding-top: 20px;
+                    background-color: #191919;
+                    border: 1px solid #191919;
+                    color: #FFFFFF;
+
+                    &:hover {
+                        background-color: #F9D783;
+                        border: 1px solid #F9D783;
+                        color: #191919;
+                    }
+                }
+    
+                .btn-intro {
+                    margin-left: 40px;
+                    padding-top: 20px;
+                    background-color: #FFFFFF;
+                    border: 1px solid #191919;
+                    border-radius: 50%;
+                    padding: 20px 29px;
+
+
+                    i {
+                        position: absolute;
+                        bottom: 21px;
+                        left: 238px;
+                    }
+
+                    &:hover {
+                        background-color: #191919;
+                        border: 1px solid #191919;
+                        color: #FFFFFF;
+                    }
+                }
+
+                a {
+                    color: #191919;
+                    padding-top: 17px;
+                    padding-left: 20px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
+
 
 
 

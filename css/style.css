@@ -376,6 +376,113 @@ header .container .menu .btn-login i {
   margin-bottom: 30px;
 }
 
+.about-company .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "box1 box2";
+  padding-top: 120px;
+  padding-bottom: 120px;
+  /* border: 1px solid #191919; */
+  position: relative;
+}
+.about-company .container .box1 {
+  /* border: 1px solid black; */
+}
+.about-company .container .box1 .girl-walking {
+  margin-left: 45px;
+}
+.about-company .container .box1 .background-lines-white-left {
+  position: absolute;
+  left: 25px;
+  top: 155px;
+}
+.about-company .container .box1 .blue-box {
+  position: absolute;
+  background-color: #BEEBFF;
+  width: 369px;
+  height: 180px;
+  top: 515px;
+  left: 0px;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+.about-company .container .box1 .blue-box .SB-founder {
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.about-company .container .box1 .blue-box .SB-founder .name {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+.about-company .container .box1 .blue-box .SB-founder .position {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  color: #F94D1C;
+}
+.about-company .container .box1 .blue-box p {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.about-company .container .box2 {
+  /* border: 1px solid black; */
+  margin-left: 120px;
+  margin-right: -10px;
+}
+.about-company .container .box2 #p1 {
+  font-family: 18px;
+  color: #F94D1C;
+}
+.about-company .container .box2 h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 800;
+}
+.about-company .container .box2 #p2 {
+  margin-top: 20px;
+  line-height: 2;
+}
+.about-company .container .box2 .buttons {
+  display: flex;
+  justify-content: start;
+  padding-top: 110px;
+  position: relative;
+}
+.about-company .container .box2 .buttons .btn-black {
+  padding-top: 20px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #FFFFFF;
+}
+.about-company .container .box2 .buttons .btn-black:hover {
+  background-color: #F9D783;
+  border: 1px solid #F9D783;
+  color: #191919;
+}
+.about-company .container .box2 .buttons .btn-intro {
+  margin-left: 40px;
+  padding-top: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #191919;
+  border-radius: 50%;
+  padding: 20px 29px;
+}
+.about-company .container .box2 .buttons .btn-intro i {
+  position: absolute;
+  bottom: 21px;
+  left: 238px;
+}
+.about-company .container .box2 .buttons .btn-intro:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+  color: #FFFFFF;
+}
+.about-company .container .box2 .buttons a {
+  color: #191919;
+  padding-top: 17px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
 .project-and-case .container {
   text-align: center;
 }
