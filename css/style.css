@@ -283,15 +283,24 @@ header .container .menu .btn-login i {
   }
 }
 
+.features .border-around {
+  border: 2px solid #DAD9D3;
+  position: absolute;
+  width: 1520px;
+  height: 600px;
+  margin-left: 200px;
+}
 .features .container {
+  position: relative;
   display: grid;
   grid-template-columns: 550px auto;
   grid-template-areas: "box1 box2";
   padding: 80px;
-  border: 2px solid #DAD9D3;
+  /* border: 2px solid #DAD9D3; */
 }
 .features .container .box1 {
-  margin-right: 160px;
+  margin-right: 165px;
+  margin-left: -75px;
   /* border: 1px solid black; */
 }
 .features .container .box1 p {
@@ -301,7 +310,7 @@ header .container .menu .btn-login i {
 .features .container .box1 h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 800;
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 40px;
 }
 .features .container .box1 .btn-yellow {
@@ -454,8 +463,8 @@ header .container .menu .btn-login i {
   color: #FFFFFF;
 }
 .about-company .container .box2 .buttons .btn-black:hover {
-  background-color: #F9D783;
-  border: 1px solid #F9D783;
+  background-color: #FFFFFF;
+  border: 1px solid #191919;
   color: #191919;
 }
 .about-company .container .box2 .buttons .btn-intro {
@@ -483,11 +492,146 @@ header .container .menu .btn-login i {
   text-decoration: none;
 }
 
+.our-services {
+  /* border: 1px solid black; */
+  background-color: #F0EFE9;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 0;
+}
+.our-services .background-lines-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.our-services .container {
+  /* border: 1px solid black; */
+}
+.our-services .container .texts {
+  /* border: 1px solid black; */
+  margin-right: 800px;
+  margin-left: -12px;
+}
+.our-services .container .texts p {
+  font-size: 18px;
+  color: #F94D1C;
+}
+.our-services .container .texts h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+}
+.our-services .container .boxes {
+  /* border: 1px solid black; */
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "busines-advice startup-business financial-advice risk-management";
+  padding-top: 40px;
+  padding-bottom: 50px;
+  margin-left: -12px;
+}
+.our-services .container .boxes .border-left {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 235px;
+  margin-left: 30px;
+  border-bottom: 2px solid black;
+}
+.our-services .container .boxes h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 30px;
+  letter-spacing: -0.6px;
+}
+.our-services .container .boxes p {
+  line-height: 1.7;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 16px;
+  letter-spacing: -0.6px;
+}
+.our-services .container .boxes .btn-arrow {
+  margin-left: 220px;
+  padding-top: 20px;
+  background-color: #191919;
+  border: 1px solid #191919;
+  border-radius: 50%;
+  padding: 26px 26px;
+  position: relative;
+  color: #FFFFFF;
+}
+.our-services .container .boxes .btn-arrow i {
+  position: absolute;
+  font-weight: 300;
+  font-size: 21px;
+  right: 16px;
+  bottom: 15px;
+}
+.our-services .container .boxes .btn-arrow:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  color: #191919;
+}
+.our-services .container .boxes .business-advice {
+  /* border: 1px solid black; */
+  background-color: #FFFFFF;
+  width: 308px;
+  height: 333px;
+}
+.our-services .container .boxes .business-advice:hover {
+  background-color: #F9D783;
+}
+.our-services .container .boxes .startup-business {
+  /* border: 1px solid black; */
+  background-color: #FFFFFF;
+  width: 308px;
+  height: 333px;
+}
+.our-services .container .boxes .startup-business:hover {
+  background-color: #F9D783;
+}
+.our-services .container .boxes .financial-advice {
+  /* border: 1px solid black; */
+  background-color: #FFFFFF;
+  width: 308px;
+  height: 333px;
+}
+.our-services .container .boxes .financial-advice:hover {
+  background-color: #F9D783;
+}
+.our-services .container .boxes .risk-management {
+  /* border: 1px solid black; */
+  background-color: #FFFFFF;
+  width: 308px;
+  height: 333px;
+}
+.our-services .container .boxes .risk-management:hover {
+  background-color: #F9D783;
+}
+.our-services .button-browse {
+  text-align: center;
+}
+.our-services .button-browse .btn-browse {
+  padding-top: 20px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.our-services .button-browse .btn-browse:hover {
+  background-color: #191919;
+}
+
 .project-and-case .container {
   text-align: center;
 }
 .project-and-case .container .section-title {
   text-align: center;
+}
+.project-and-case .container .section-title h2 {
+  font-weight: 800;
 }
 .project-and-case .container .project-and-cases {
   display: grid;
