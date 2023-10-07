@@ -304,6 +304,7 @@ header {
         grid-template-columns: 550px auto;
         grid-template-areas: "box1 box2";
         padding: 80px;
+        z-index: 0;
 
         .border-around {
             border: 2px solid #DAD9D3;
@@ -311,6 +312,7 @@ header {
             width: 1520px;
             height: 600px;
             margin-left: -100px;
+            z-index: -1;
         }
 
         .box1 {
@@ -330,7 +332,7 @@ header {
                 margin-bottom: 40px;
             }
 
-            .btn-yellow {
+            .btn-learnmore {
                 display: flex;
                 justify-content: center;
                 padding-top: 20px;
@@ -813,7 +815,7 @@ header {
                 background-color: #F0EFE9;
                 position: absolute;
                 top: 200px;
-                right: -300px;
+                right: -299px;
                 z-index: -1;
             }
         }
@@ -1328,4 +1330,348 @@ header {
      .btn-yellow {
         padding-top: 20px;
      }
+}
+
+footer {
+    /* border: 1px solid black; */
+    background-color: #0E1021;
+    padding-top: 100px;
+    position: relative;
+
+    .background-lines-white-right {
+        position: absolute;
+        bottom: 76px;
+        right: 0;
+    }
+    
+    .container {
+        /* border: 1px solid black; */
+
+        p {
+            color: #9d9d9d;
+        }
+
+        a {
+            color: #9d9d9d;
+            text-decoration: none;
+        }
+        
+        h3 {
+            color: #FFFFFF;
+            font-size: 22px;
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 800;
+            padding-bottom: 15px;
+        }
+
+        .box1 {
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: "logotype logotype company help resources link";
+            gap: 60px;
+
+            .logotype {
+                /* border: 1px solid black; */
+                margin-left: -14px;
+                margin-right: 20px;
+
+                p {
+                    padding-top: 25px;
+                }
+
+            }
+
+            .company {
+                /* border: 1px solid black; */
+                margin-left: 14px;
+                margin-right: 14px;
+                padding-top: 20px;
+
+                a {
+                    line-height: 2.5;
+                }
+
+                nav {
+                    margin-right: 40px;
+                }
+
+            }
+
+            .help {
+                /* border: 1px solid black; */
+                margin-left: 23px;
+                margin-right: -23px;
+                padding-top: 20px;
+
+                a {
+                    line-height: 2.5;
+                }
+            }
+
+            .resources {
+                /* border: 1px solid black; */
+                margin-left: 53px;
+                margin-right: -53px;
+                padding-top: 20px;
+
+                a {
+                    line-height: 2.5;
+                }
+            }
+
+            .link {
+                /* border: 1px solid black; */
+                margin-left: 73px;
+                margin-right: -73px;
+                padding-top: 20px;
+
+                a {
+                    line-height: 2.5;
+                }
+            }
+        }
+    }
+
+    .line {
+        border-top: 1px solid #9d9d9d;
+        margin-top: 90px;
+        opacity: 25%;
+    }
+
+    .container {
+        margin-top: 25px; 
+        
+        .box2 {
+            /* border: 1px solid white; */
+            display: flex;
+            justify-content: space-between;
+    
+            p {
+                margin-left: -14px;
+            }
+
+            .socialmedia-bar {
+                margin-right: -30px;
+                margin-bottom: 26px;
+
+                a {
+                    padding-right: 16px;
+                    color: #FFFFFF;
+                    
+                    &:hover {
+                        color: #ffffffb8;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* connect.html */
+.connect-showcase {
+    background-color: #F0EFE9;
+    padding-top: 90px;
+    padding-bottom: 100px;
+    position: relative;
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .container {
+        text-align: center;
+
+        h2 {
+           font-family: 'DM Sans', sans-serif; 
+           font-size: 56px;
+           font-weight: 800;
+           margin-top: -10px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin: 10px;
+                color: #191919;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.contact-information {
+    padding-top: 120px;
+    padding-bottom: 80px;
+
+
+    .container {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .icon {
+            margin-top: 50px;
+            margin-left: 60px;
+
+            i {
+                font-size: 20px;
+                background-color: #191919;
+                border: 1px solid black;
+                border-radius: 50%;
+                color: #FFFFFF;
+                padding: 20px 20px;
+            }
+        }
+
+        h3 {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 800;
+            margin-left: 150px;
+            margin-top: -55px;
+            margin-bottom: 20px;
+        }
+
+        #p1 {
+            font-size: 18px;
+            margin-left: 150px;
+            margin-bottom: 1px;
+            margin-top: -5px;
+        }
+
+        #p2 {
+            font-size: 18px;
+            margin-left: 150px;
+        }
+
+        .visit-us {
+            border: 2px solid #DAD9D3;
+            width: 420px;
+            height: 206px;
+            margin-left: -13px;
+
+            i {
+                padding: 20px 23px;
+            }
+        }
+
+        .call-us {
+            border: 2px solid #DAD9D3;
+            width: 420px;
+            height: 206px;
+        }
+
+        .email-us {
+            border: 2px solid #DAD9D3;
+            width: 420px;
+            height: 206px;
+            margin-right: -13px;
+        }
+    }
+}
+
+.message-forms {
+
+    .container {
+        /* border: 1px solid black; */
+        background-color: #F0EFE9;
+        padding-top: 120px;
+        padding-bottom: 70px;
+
+        .leave-message {
+            /* border: 1px solid black; */
+            text-align: center;
+            margin: 0px 420px;
+
+            h2 {
+                font-family: 'DM Sans', sans-serif;
+                font-size: 45px;
+                font-weight: 800;
+            }
+        }
+
+        .inputs {
+            /* border: 1px solid black; */
+            margin: 20px 135px;
+
+            .name {
+                margin-bottom: 20px;
+                width: 1020px;
+                background-color: #FFFFFF;
+                border-radius: 35px;
+                padding: 10px;
+
+                input {
+                    width: 300px;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    margin-left: 20px;
+                    padding-top: 10px;
+                }
+            }
+
+            .email {
+                margin-bottom: 20px;
+                width: 1020px;
+                background-color: #FFFFFF;
+                border-radius: 35px;
+                padding: 10px;
+
+                input {
+                    width: 300px;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    margin-left: 20px;
+                    padding-top: 10px;
+                }
+            }
+
+            .message {
+                margin-bottom: 20px;
+                width: 1020px;
+                background-color: #FFFFFF;
+                border-radius: 35px;
+                padding: 10px;
+                height: 160px;
+
+                input {
+                    width: 300px;
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    margin-left: 20px;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .send-message-button {
+            /* border: 1px solid black; */
+            margin: 40px 135px;
+
+            .btn-message {
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+
+                i {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    img {
+        padding-top: 120px;
+        width: 100%;
+    }
 }
